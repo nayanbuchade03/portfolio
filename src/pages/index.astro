@@ -1,17 +1,218 @@
 ---
+import Layout from "../layouts/Layout.astro";
 
+const projects = [
+	{
+		title: "SOS Service",
+		subtitle: "Real-Time Dispatch System",
+		description:
+			"A real-time geospatial tracking and rapid-response dispatch platform designed for active law enforcement workflows.",
+		impact: [
+			"Engineered high-frequency live tracking by implementing Redis geospatial indexing, allowing the system to process coordinate updates with near-zero latency.",
+			"Architected core operational features, including an emergency SOS broadcast system and 'Green Radar Zones' for dynamic boundary management.",
+			"Bridged the backend data stream with a responsive frontend, utilizing Leaflet.js to visualize live officer locations and active field events.",
+		],
+		tags: [
+			"Redis",
+			"Leaflet.js",
+			"Geospatial Data",
+			"Spring Boot",
+			"Full-Stack",
+		],
+		github: "https://github.com/nayanbuchade03/sos-service",
+		demo: "#",
+	},
+	{
+		title: "PolicyPulse AI",
+		subtitle: "Enterprise Backend Engine",
+		description:
+			"An intelligent backend engine designed to automate complex policy validation and data processing.",
+		impact: [
+			"Architected a highly scalable enterprise-grade backend utilizing Java 21 and the Spring Boot ecosystem.",
+			"Integrated Spring AI to handle automated logic and intelligent data evaluation, significantly reducing manual validation overhead.",
+			"Designed and optimized relational database schemas using PostgreSQL and Spring Data JPA to ensure secure, ACID-compliant data transactions.",
+		],
+		tags: [
+			"Java 21",
+			"Spring Boot",
+			"Spring Data JPA",
+			"PostgreSQL",
+			"Spring AI",
+		],
+		github: "https://github.com/nayanbuchade03/policypulse-ai",
+		demo: "#",
+	},
+	{
+		title: "Videofy",
+		subtitle: "Full-Stack Video Processing Platform",
+		description:
+			"A web application designed to handle the complexities of video content management, processing, and delivery.",
+		impact: [
+			"Architected a robust backend service to manage large file ingests, implementing efficient chunked uploading and secure storage solutions.",
+			"Designed asynchronous processing queues to handle video transformations without blocking the main application thread.",
+			"Built a responsive frontend interface that tightly integrates with the backend API to deliver real-time progress updates.",
+		],
+		tags: ["Python", "TensorFlow", "Keras", "Flask", "Machine Learning"],
+		github: "https://github.com/nayanbuchade03/videofy-webapp",
+		demo: "#",
+	},
+	{
+		title: "AI Ticket Triage",
+		subtitle: "Intelligent Support Routing Engine",
+		description:
+			"An automated backend service that leverages natural language processing to analyze, categorize, and prioritize incoming support requests.",
+		impact: [
+			"Engineered an automated triage pipeline integrating machine learning models to instantly classify ticket intent and urgency.",
+			"Developed a scalable RESTful API to seamlessly ingest tickets from various client sources and route them to appropriate database queues.",
+			"Optimized database queries and indexing strategies to ensure support agents have real-time access to high-priority issues.",
+		],
+		tags: ["Python", "TensorFlow", "Keras", "Flask", "Machine Learning"],
+		github: "https://github.com/nayanbuchade03/ai-ticket-triage-copilot",
+		demo: "#",
+	},
+];
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Nayan Buchade | Full-Stack Engineer">
+	<main class="max-w-3xl mx-auto px-6 py-20 sm:py-32">
+		<section class="mb-24 sm:mb-32">
+			<h1
+				class="text-4xl sm:text-5xl font-bold tracking-tight text-slate-100 mb-4"
+			>
+				Hi, I'm Nayan Buchade.
+			</h1>
+			<p class="text-xl text-slate-400 leading-relaxed max-w-2xl mb-8">
+				I'm a full-stack software developer specializing in robust
+				backend architecture, real-time geospatial tracking, and
+				intelligent APIs. I build systems that scale.
+			</p>
+			<div class="flex gap-4">
+				<a
+					href="#projects"
+					class="px-5 py-2.5 rounded-md bg-teal-500/10 text-teal-400 font-medium hover:bg-teal-500/20 transition duration-200 border border-teal-500/20"
+				>
+					View My Work
+				</a>
+				<a
+					href="/Nayan_Buchade_Resume.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="px-5 py-2.5 rounded-md text-slate-400 font-medium hover:text-slate-200 transition duration-200"
+				>
+					Read Resume
+				</a>
+			</div>
+		</section>
+
+		<section class="mb-24 sm:mb-32">
+			<h2
+				class="font-mono text-sm uppercase tracking-widest text-teal-400 mb-6"
+			>
+				01. About Me
+			</h2>
+			<div class="space-y-6 text-slate-400 leading-relaxed text-base">
+				<p>
+					I am a full-stack developer who loves bridging complex data
+					logic with seamless user experiences. I specialize in
+					building robust, backend-heavy systems that power
+					high-stakes applications—whether that involves architecting
+					real-time mapping systems or designing automated data
+					validation pipelines.
+				</p>
+				<p>
+					My core engineering work revolves around <strong
+						class="text-slate-200 font-medium">Java 21</strong
+					> and the <strong class="text-slate-200 font-medium"
+						>Spring ecosystem</strong
+					> (Spring Boot, Spring Data JPA) paired with <strong
+						class="text-slate-200 font-medium">PostgreSQL</strong
+					>. I am particularly drawn to challenges involving
+					performance and scale. Recently, my focus has been on
+					implementing <strong class="text-slate-200 font-medium"
+						>Redis</strong
+					> for high-frequency geospatial indexing and integrating machine
+					learning models—using Python and <strong
+						class="text-slate-200 font-medium">TensorFlow</strong
+					>—into web applications via Flask.
+				</p>
+				<p>
+					Beyond just making things work, I care deeply about how they
+					are built. I believe in delivering clean, well-documented
+					codebases, clear system architecture, and reliable
+					deployments using tools like <strong
+						class="text-slate-200 font-medium">Docker</strong
+					> and <strong class="text-slate-200 font-medium"
+						>GitHub</strong
+					>.
+				</p>
+			</div>
+		</section>
+
+		<section id="projects">
+			<h2
+				class="font-mono text-sm uppercase tracking-widest text-teal-400 mb-12"
+			>
+				02. Selected Work
+			</h2>
+			<div class="space-y-16">
+				{
+					projects.map((project) => (
+						<div class="group relative flex flex-col items-start">
+							<div class="flex items-baseline justify-between w-full mb-1">
+								<h3 class="text-xl font-semibold text-slate-100 group-hover:text-teal-400 transition duration-200">
+									{project.title}
+								</h3>
+								<div class="flex gap-4 font-mono text-xs text-slate-500">
+									<a
+										href={project.github}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="hover:text-teal-400 transition"
+									>
+										GitHub
+									</a>
+									<a
+										href={project.demo}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="hover:text-teal-400 transition"
+									>
+										Demo
+									</a>
+								</div>
+							</div>
+							<span class="font-mono text-xs text-teal-500/80 mb-4">
+								{project.subtitle}
+							</span>
+							<p class="text-slate-400 text-sm mb-4 leading-relaxed">
+								{project.description}
+							</p>
+
+							<ul class="space-y-2 mb-6 text-sm text-slate-400 list-none pl-0">
+								{project.impact.map((point) => (
+									<li class="relative pl-5 before:content-['→'] before:absolute before:left-0 before:text-teal-500/70">
+										{point}
+									</li>
+								))}
+							</ul>
+
+							<div class="flex flex-wrap gap-2">
+								{project.tags.map((tag) => (
+									<span class="font-mono text-xs px-2.5 py-1 rounded bg-slate-900 text-slate-400 border border-slate-800/60">
+										{tag}
+									</span>
+								))}
+							</div>
+						</div>
+					))
+				}
+			</div>
+		</section>
+
+		<footer
+			class="mt-32 pt-8 border-t border-slate-900 text-center font-mono text-xs text-slate-600"
+		>
+			<p>Built with Astro and Tailwind CSS.</p>
+		</footer>
+	</main>
+</Layout>
