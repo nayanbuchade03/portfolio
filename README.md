@@ -1,43 +1,32 @@
-# Astro Starter Kit: Minimal
+My FullStack Engineering Portfolio
 
-```sh
-npm create astro@latest -- --template minimal
-```
+**Nayan Buchade**  
+ Sangli, Maharashtra, India  
+ FullStack Engineer | Spring Boot Expert | AI Integration Enthusiast
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+##  About Me
 
-Inside of your Astro project, you'll see the following folders and files:
+I'm a technically proficient IT graduate (B.Tech 2025) passionately building backend engineering projects with **Spring Boot**, **Docker**, **PostgreSQL**, and modern API development practices. My focus lies in creating scalable, production-ready backend systems while integrating **artificial intelligence** and **agentic AI** concepts into backend applications.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+---
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 💼 Key Skills
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Backend Engineering
+- **Java & Spring Boot** (Dependency Injection, REST APIs, Security)
+- **Database**: PostgreSQL (Complex Queries, ORM)
+- **API Development & Testing**: REST, Postman, Swagger
+- **Containerization**: Docker, Docker Compose
+- **Version Control**: Git, GitHub
 
-Any static assets, like images, can be placed in the `public/` directory.
+### DevOps & Tools
+- Maven, Gradle
+- CI/CD Basics
+- Linux Command Line
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Emerging Technologies
+- AI Integration in Backend Applications
+- Policy/Compliance Automation with Guardrails
+- Agentic AI Concepts
